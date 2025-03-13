@@ -7,15 +7,16 @@
 /*
 Plugin Name: Devops challenge Júnior
 Plugin URI: https://apiki.com/
-Description: Sabe de nada, inocente! Ordinária!!
+Description: Sabe de nada, inocente! Ordinária!! Teste por Gustavo Dias!!!
 Author: Apiki WordPress
 Version: 1.0
 */
 
-global $global_lyrics;
+
 
 function apiki_segura_o_tchan() {
-	
+	global $global_lyrics;
+
 	$global_lyrics = "Pau que nasce torto nunca se endireita
 	Menina que requebra a mãe pega na cabeça
 	Pau que nasce torto nunca se endireita
@@ -38,7 +39,7 @@ function apiki_segura_o_tchan() {
 	
 	$lyrics_array = explode( "\n", $global_lyrics );
 
-	return wptexturize( $global_lyrics[ mt_rand(0, count( $lyrics_array ) - 1) ] );
+	return wptexturize( $lyrics_array[ mt_rand(0, count( $lyrics_array ) - 1) ] );
 }
 
 function devops_challenge() {
@@ -49,13 +50,13 @@ function devops_challenge() {
 	}
 
 	printf(
-		'<p id="devop" class="devop"%s>%s</p>',
+		'<p id="devop" class="devop">%s %s</p>',
 		$lang,
 		esc_html__('Segure o Tchan, by Apiki WordPress: ', 'devops_challenge') . esc_html($chosen)
 	);
 }
 
-add_action( 'mostrar_o_tchan', 'devops_challenge' );
+add_action( 'admin_notices', 'devops_challenge' );
 
 function devop_css() {
 	echo "
