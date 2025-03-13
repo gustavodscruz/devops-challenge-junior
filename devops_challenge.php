@@ -1,3 +1,5 @@
+<?php
+
 /**
  * @package Devops_challenge_Junior
  * @version 1.0
@@ -10,10 +12,9 @@ Author: Apiki WordPress
 Version: 1.0
 */
 
-$global_lyrics;
+global $global_lyrics;
 
 function apiki_segura_o_tchan() {
-	$lyrics = $global_lyrics;
 	
 	$lyrics = "Pau que nasce torto nunca se endireita
 	Menina que requebra a mãe pega na cabeça
@@ -34,6 +35,7 @@ function apiki_segura_o_tchan() {
 	Esse é o Gera Samba arrebentando no pedaço
 	Joga ela no meio, mete em cima, mete embaixo";
 
+	$global_lyrics = $lyrics;
 	$lyrics = explode( "\n", $lyrics )
 
 	return wptexturize( $lyrics[ mt_rand( count( $lyrics ) - 1, 0 ) ] );
