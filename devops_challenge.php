@@ -50,7 +50,7 @@ function devops_challenge() {
 	}
 
 	printf(
-		'<p id="devop" class="devop">%s %s</p>',
+		'<p id="devop" class="devop" %s> %s</p>',
 		$lang,
 		esc_html__('Segure o Tchan, by Apiki WordPress: ', 'devops_challenge') . esc_html($chosen)
 	);
