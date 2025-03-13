@@ -49,13 +49,13 @@ function devops_challenge() {
 	}
 
 	printf(
-		'O texto é: %s %s %s',
-		__( 'Segure o Tchan, by Apiki WordPress:' ),
-		$lang
+		'<p id="devop" class="devop"%s>%s</p>',
+		$lang,
+		esc_html__('Segure o Tchan, by Apiki WordPress: ', 'devops_challenge') . esc_html($chosen)
 	);
 }
 
-add_action( '', 'devops_challenge' );
+add_action( 'mostrar_o_tchan', 'devops_challenge' );
 
 function devop_css() {
 	echo "
