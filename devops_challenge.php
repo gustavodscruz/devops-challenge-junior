@@ -12,6 +12,9 @@ Author: Apiki WordPress
 Version: 1.0
 */
 
+function main () {
+} 
+
 
 
 function apiki_segura_o_tchan($locale)
@@ -86,35 +89,9 @@ function devops_challenge()
 	);
 }
 
-add_action('admin_notices', 'devops_challenge');
-
-function devop_css()
-{
-	echo "
-	<style type='text/css'>
-	#devop {
-		float: right;
-		padding: 5px 10px;
-		margin: 0;
-		font-size: 12px;
-		line-height: 1.6666;
-	}
-	.rtl #devop {
-		float: left;
-	}
-	.block-editor-page #devop {
-		display: none;
-	}
-	@media screen and (max-width: 782px) {
-		#devop,
-		.rtl #devop {
-			float: none;
-			padding-left: 0;
-			padding-right: 0;
-		}
-	}
-	</style>
-	";
+function devop_css(){
+	wp_enqueue_style ("devops_challenge_css", plugin_dir_url(__FILE__) . "styles.css");
 }
 
+add_action('admin_notices', 'devops_challenge');
 add_action('admin_head', 'devop_css');

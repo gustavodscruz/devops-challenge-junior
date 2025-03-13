@@ -1,0 +1,21 @@
+#devop {
+  float: right;
+  padding: 5px 10px;
+  margin: 0;
+  font-size: 12px;
+  line-height: 1.6666;
+}
+.rtl #devop {
+  float: left;
+}
+.block-editor-page #devop {
+  display: none;
+}
+@media screen and (max-width: 782px) {
+  #devop,
+  .rtl #devop {
+    float: none;
+    padding-left: 0;
+    padding-right: 0;
+  }
+}
