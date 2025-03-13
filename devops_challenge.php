@@ -16,7 +16,7 @@ global $global_lyrics;
 
 function apiki_segura_o_tchan() {
 	
-	$lyrics = "Pau que nasce torto nunca se endireita
+	$global_lyrics = "Pau que nasce torto nunca se endireita
 	Menina que requebra a mãe pega na cabeça
 	Pau que nasce torto nunca se endireita
 	Menina que requebra a mãe pega na cabeça
@@ -35,16 +35,16 @@ function apiki_segura_o_tchan() {
 	Esse é o Gera Samba arrebentando no pedaço
 	Joga ela no meio, mete em cima, mete embaixo";
 
-	$global_lyrics = $lyrics;
-	$lyrics = explode( "\n", $lyrics )
+	
+	$lyrics_array = explode( "\n", $global_lyrics );
 
-	return wptexturize( $lyrics[ mt_rand( count( $lyrics ) - 1, 0 ) ] );
+	return wptexturize( $global_lyrics[ mt_rand(0, count( $lyrics_array ) - 1) ] );
 }
 
 function devops_challenge() {
-	$chosen = $undefined_variable;
+	$chosen = apiki_segura_o_tchan();
 	$lang   = '';
-	if ( 'en_' !== substr( get_user_locale(), 0, 3 ) ) {
+	if ( substr( get_user_locale(), 0, 3 ) !== 'pt_' ) {
 		$lang = ' lang="en"';
 	}
 
