@@ -7,7 +7,7 @@
 /*
 Plugin Name: Devops challenge Júnior
 Plugin URI: https://apiki.com/
-Description: Sabe de nada, inocente! Ordinária!! Teste por Gustavo Dias, o brabo!!!
+Description: Sabe de nada, inocente! Ordinária!! Teste por Gustavo Dias!
 Author: Apiki WordPress
 Version: 1.0
 */
@@ -16,7 +16,6 @@ Version: 1.0
 
 function apiki_segura_o_tchan($locale)
 {
-	global $global_lyrics;
 
 	$global_lyrics = [
 		'pt_BR' => "
@@ -61,10 +60,12 @@ function apiki_segura_o_tchan($locale)
 		"
 	];
 	
+	$lyrics = $global_lyrics[$locale] ?? $global_lyrics['pt_BR'];
 
-	$lyrics_array = explode("\n", trim($global_lyrics[$locale]));
+	$lyrics_array = array_filter(array_map('trim', explode("\n", trim($lyrics))));
+	// $lyrics_array = explode("\n", trim($global_lyrics[$locale]));
 
-	return wptexturize($lyrics_array[mt_rand(0, count($lyrics_array) - 1)]);
+	return wptexturize($lyrics_array[array_rand($lyrics_array)]);
 	
 }
 
