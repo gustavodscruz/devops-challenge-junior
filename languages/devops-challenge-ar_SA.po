@@ -1,0 +1,80 @@
+# Copyright (C) 2025 Apiki WordPress
+# This file is distributed under the same license as the Devops challenge Júnior plugin.
+msgid ""
+msgstr ""
+"Project-Id-Version: Devops challenge Júnior 1.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/devops-challenge\n"
+"POT-Creation-Date: 2025-03-15T19:06:37+00:00\n"
+"PO-Revision-Date: 2025-03-15 16:13-0300\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: ar_SA\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 3.5\n"
+"X-Domain: devops-challenge\n"
+
+#. Plugin Name of the plugin
+#: devops_challenge.php
+msgid "Devops challenge Júnior"
+msgstr "تمسك بـ Tchan، بواسطة Apiki WordPress:"
+
+#. Plugin URI of the plugin
+#: devops_challenge.php
+msgid "https://apiki.com/"
+msgstr "https://apiki.com/"
+
+#. Description of the plugin
+#: devops_challenge.php
+msgid "Sabe de nada, inocente! Ordinária!!"
+msgstr "أنت لا تعرف شيئا، أيها البريء! عادي!!"
+
+#. Author of the plugin
+#: devops_challenge.php
+msgid "Apiki WordPress"
+msgstr "أبيكي أوردبريس"
+
+#: devops_challenge.php:25
+msgid ""
+"Pau que nasce torto nunca se endireita\n"
+"Menina que requebra a mãe pega na cabeça\n"
+"Pau que nasce torto nunca se endireita\n"
+"Menina que requebra a mãe pega na cabeça\n"
+"Domingo ela não vai (vai, vai)\n"
+"Domingo ela não vai não (vai, vai, vai)\n"
+"Olha, domingo ela não vai (vai, vai)\n"
+"Domingo ela não vai não (vai, vai, vai)\n"
+"O pau que nasce torto nunca se endireita\n"
+"Menina que requebra a mãe pega na cabeça\n"
+"Pau que nasce torto nunca se endireita\n"
+"Menina que requebra a mãe pega na cabeça\n"
+"Segure o tchan\n"
+"Amarre o tchan\n"
+"Segure o tchan tchan tchan tchan\n"
+"Depois de nove meses você vê o resultado\n"
+"Esse é o Gera Samba arrebentando no pedaço\n"
+"Joga ela no meio, mete em cima, mete embaixo"
+msgstr ""
+"الشجرة المعوجة لا تنمو بشكل مستقيم أبدًا\n"
+"الفتاة التي تهز أمها تمسك رأسها\n"
+"الشجرة المعوجة لا تنمو بشكل مستقيم أبدًا\n"
+"الفتاة التي تهز أمها تمسك رأسها\n"
+"يوم الأحد لن تذهب (تذهب، تذهب)\n"
+"لن تذهب يوم الأحد (ستذهب، ستذهب، ستذهب)\n"
+"انظر، إنها لن تذهب يوم الأحد (إنها ذاهبة، إنها ذاهبة)\n"
+"لن تذهب يوم الأحد (ستذهب، ستذهب، ستذهب)\n"
+"الشجرة المعوجة لا تستقيم أبدًا\n"
+"الفتاة التي تهز أمها تمسك رأسها\n"
+"الشجرة المعوجة لا تنمو بشكل مستقيم أبدًا\n"
+"الفتاة التي تهز أمها تمسك رأسها\n"
+"تمسك جيدا\n"
+"ربط التشان\n"
+"امسك تشان تشان تشان تشان\n"
+"بعد تسعة أشهر ترى النتيجة\n"
+"هذا هو جيرا سامبا يهز المكان\n"
+"ارميها في المنتصف، ضعها في الأعلى، ضعها في الأسفل"
+
+#: devops_challenge.php:84
+msgid "Segure o Tchan, by Apiki WordPress: "
+msgstr "تمسك بـ Tchan، بواسطة Apiki WordPress:"

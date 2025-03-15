@@ -1,0 +1,61 @@
+# Copyright (C) 2025 Apiki WordPress
+# This file is distributed under the same license as the Devops challenge Júnior plugin.
+msgid ""
+msgstr ""
+"Project-Id-Version: Devops challenge Júnior 1.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/devops-challenge\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2025-03-15T19:06:37+00:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.11.0\n"
+"X-Domain: devops-challenge\n"
+
+#. Plugin Name of the plugin
+#: devops_challenge.php
+msgid "Devops challenge Júnior"
+msgstr ""
+
+#. Plugin URI of the plugin
+#: devops_challenge.php
+msgid "https://apiki.com/"
+msgstr ""
+
+#. Description of the plugin
+#: devops_challenge.php
+msgid "Sabe de nada, inocente! Ordinária!!"
+msgstr ""
+
+#. Author of the plugin
+#: devops_challenge.php
+msgid "Apiki WordPress"
+msgstr ""
+
+#: devops_challenge.php:25
+msgid ""
+"Pau que nasce torto nunca se endireita\n"
+"Menina que requebra a mãe pega na cabeça\n"
+"Pau que nasce torto nunca se endireita\n"
+"Menina que requebra a mãe pega na cabeça\n"
+"Domingo ela não vai (vai, vai)\n"
+"Domingo ela não vai não (vai, vai, vai)\n"
+"Olha, domingo ela não vai (vai, vai)\n"
+"Domingo ela não vai não (vai, vai, vai)\n"
+"O pau que nasce torto nunca se endireita\n"
+"Menina que requebra a mãe pega na cabeça\n"
+"Pau que nasce torto nunca se endireita\n"
+"Menina que requebra a mãe pega na cabeça\n"
+"Segure o tchan\n"
+"Amarre o tchan\n"
+"Segure o tchan tchan tchan tchan\n"
+"Depois de nove meses você vê o resultado\n"
+"Esse é o Gera Samba arrebentando no pedaço\n"
+"Joga ela no meio, mete em cima, mete embaixo"
+msgstr ""
+
+#: devops_challenge.php:84
+msgid "Segure o Tchan, by Apiki WordPress: "
+msgstr ""

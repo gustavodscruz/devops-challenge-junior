@@ -1,0 +1,80 @@
+# Copyright (C) 2025 Apiki WordPress
+# This file is distributed under the same license as the Devops challenge Júnior plugin.
+msgid ""
+msgstr ""
+"Project-Id-Version: Devops challenge Júnior 1.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/devops-challenge\n"
+"POT-Creation-Date: 2025-03-15T19:06:37+00:00\n"
+"PO-Revision-Date: 2025-03-15 16:10-0300\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: ja_JP\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 3.5\n"
+"X-Domain: devops-challenge\n"
+
+#. Plugin Name of the plugin
+#: devops_challenge.php
+msgid "Devops challenge Júnior"
+msgstr "Devopsへの挑戦 ジュニア"
+
+#. Plugin URI of the plugin
+#: devops_challenge.php
+msgid "https://apiki.com/"
+msgstr "https://apiki.com/"
+
+#. Description of the plugin
+#: devops_challenge.php
+msgid "Sabe de nada, inocente! Ordinária!!"
+msgstr "何も知らない、無邪気なアバズレ！"
+
+#. Author of the plugin
+#: devops_challenge.php
+msgid "Apiki WordPress"
+msgstr "アピキ・オードプレス"
+
+#: devops_challenge.php:25
+msgid ""
+"Pau que nasce torto nunca se endireita\n"
+"Menina que requebra a mãe pega na cabeça\n"
+"Pau que nasce torto nunca se endireita\n"
+"Menina que requebra a mãe pega na cabeça\n"
+"Domingo ela não vai (vai, vai)\n"
+"Domingo ela não vai não (vai, vai, vai)\n"
+"Olha, domingo ela não vai (vai, vai)\n"
+"Domingo ela não vai não (vai, vai, vai)\n"
+"O pau que nasce torto nunca se endireita\n"
+"Menina que requebra a mãe pega na cabeça\n"
+"Pau que nasce torto nunca se endireita\n"
+"Menina que requebra a mãe pega na cabeça\n"
+"Segure o tchan\n"
+"Amarre o tchan\n"
+"Segure o tchan tchan tchan tchan\n"
+"Depois de nove meses você vê o resultado\n"
+"Esse é o Gera Samba arrebentando no pedaço\n"
+"Joga ela no meio, mete em cima, mete embaixo"
+msgstr ""
+"曲がった木は決してまっすぐに育たない\n"
+"母親を揺さぶる少女が母親の頭をつかむ\n"
+"曲がった木は決してまっすぐに育たない\n"
+"母親を揺さぶる少女が母親の頭をつかむ\n"
+"日曜日は彼女は行きません（行きなさい、行きなさい）\n"
+"彼女は日曜日には行きません（行きます、行きます、行きます）\n"
+"ほら、彼女は日曜日には行かない（彼女は行く、彼女は行く）\n"
+"彼女は日曜日には行きません（行きます、行きます、行きます）\n"
+"曲がった木は決してまっすぐにならない\n"
+"母親を揺さぶる少女が母親の頭をつかむ\n"
+"曲がった木は決してまっすぐに育たない\n"
+"母親を揺さぶる少女が母親の頭をつかむ\n"
+"しっかりつかまって\n"
+"チャンを結ぶ\n"
+"チャンチャンチャンチャンチャンを押さえて\n"
+"9か月後に結果がわかる\n"
+"ゲラ・サンバが会場を沸かせている\n"
+"真ん中に投げて、上に乗せて、下に乗せて"
+
+#: devops_challenge.php:84
+msgid "Segure o Tchan, by Apiki WordPress: "
+msgstr "Tchan をつかまえて、Apiki WordPress より:"

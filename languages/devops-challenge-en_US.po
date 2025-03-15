@@ -1,0 +1,80 @@
+# Copyright (C) 2025 Apiki WordPress
+# This file is distributed under the same license as the Devops challenge Júnior plugin.
+msgid ""
+msgstr ""
+"Project-Id-Version: Devops challenge Júnior 1.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/devops-challenge\n"
+"POT-Creation-Date: 2025-03-15T19:06:37+00:00\n"
+"PO-Revision-Date: 2025-03-15 16:07-0300\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: en_US\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 3.5\n"
+"X-Domain: devops-challenge\n"
+
+#. Plugin Name of the plugin
+#: devops_challenge.php
+msgid "Devops challenge Júnior"
+msgstr "Devops challenge Junior"
+
+#. Plugin URI of the plugin
+#: devops_challenge.php
+msgid "https://apiki.com/"
+msgstr "https://apiki.com/"
+
+#. Description of the plugin
+#: devops_challenge.php
+msgid "Sabe de nada, inocente! Ordinária!!"
+msgstr "You know nothing, innocent! You slut!"
+
+#. Author of the plugin
+#: devops_challenge.php
+msgid "Apiki WordPress"
+msgstr "Apiki WordPress"
+
+#: devops_challenge.php:25
+msgid ""
+"Pau que nasce torto nunca se endireita\n"
+"Menina que requebra a mãe pega na cabeça\n"
+"Pau que nasce torto nunca se endireita\n"
+"Menina que requebra a mãe pega na cabeça\n"
+"Domingo ela não vai (vai, vai)\n"
+"Domingo ela não vai não (vai, vai, vai)\n"
+"Olha, domingo ela não vai (vai, vai)\n"
+"Domingo ela não vai não (vai, vai, vai)\n"
+"O pau que nasce torto nunca se endireita\n"
+"Menina que requebra a mãe pega na cabeça\n"
+"Pau que nasce torto nunca se endireita\n"
+"Menina que requebra a mãe pega na cabeça\n"
+"Segure o tchan\n"
+"Amarre o tchan\n"
+"Segure o tchan tchan tchan tchan\n"
+"Depois de nove meses você vê o resultado\n"
+"Esse é o Gera Samba arrebentando no pedaço\n"
+"Joga ela no meio, mete em cima, mete embaixo"
+msgstr ""
+"A crooked stick never straightens out\n"
+"A girl who shakes her hips, her mother grabs it on the head\n"
+"A crooked stick never straightens out\n"
+"A girl who shakes her hips, her mother grabs it on the head\n"
+"She won't go on Sunday (she will, she will)\n"
+"She won't go on Sunday (she will, she will, she will)\n"
+"Look, she won't go on Sunday (she will, she will)\n"
+"She won't go on Sunday (she will, she will, she will)\n"
+"A crooked stick never straightens out\n"
+"A girl who shakes her hips, her mother grabs it on the head\n"
+"A crooked stick never straightens out\n"
+"A girl who shakes her hips, her mother grabs it on the head\n"
+"Hold the tchan\n"
+"Tie the tchan\n"
+"Hold the tchan tchan tchan tchan\n"
+"After nine months you'll see the result\n"
+"This is Gera Samba breaking it out\n"
+"Throw her in the middle, stick her on top, stick her on the bottom"
+
+#: devops_challenge.php:84
+msgid "Segure o Tchan, by Apiki WordPress: "
+msgstr "Segure o Tchan, by Apiki WordPress:"
