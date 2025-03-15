@@ -7,14 +7,14 @@
 /*
 Plugin Name: Devops challenge Júnior
 Plugin URI: https://apiki.com/
-Description: Sabe de nada, inocente! Ordinária!! Teste por Gustavo Dias!
+Description: Sabe de nada, inocente! Ordinária!!
 Author: Apiki WordPress
 Version: 1.0
 */
-
-function main () {
-} 
-
+ 
+if (!defined("ABSPATH")) {
+	exit;
+}
 
 
 function apiki_segura_o_tchan($locale)
