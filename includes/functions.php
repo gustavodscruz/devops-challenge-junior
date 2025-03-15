@@ -74,6 +74,10 @@ function devops_challenge()
 function devop_css(){
     $plugin_url = plugin_dir_url(dirname(__FILE__));
 
-	wp_enqueue_style ("devops_challenge_css", $plugin_url . "assets/css/styles.css");
+    wp_enqueue_style("devops_challenge_css", $plugin_url . "assets/css/styles.css");
+
+    wp_enqueue_script("devops_challenge_rtl", $plugin_url . "assets/js/is-rtl.js", array(), '1.0', true);
+
 }
+
 
