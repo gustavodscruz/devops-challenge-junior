@@ -41,30 +41,7 @@ function apiki_segura_o_tchan()
 			"Depois de nove meses você vê o resultado\n" .
 			"Esse é o Gera Samba arrebentando no pedaço\n" .
 			"Joga ela no meio, mete em cima, mete embaixo", 'devops-challenge');
-		// 'en_US' => "
-		// 	A crooked tree never straightens
-		// 	A girl who shakes, her mother grabs her head
-		// 	A crooked tree never straightens
-		// 	A girl who shakes, her mother grabs her head
-		// 	She won't go on Sunday (go, go)
-		// 	She won't go on Sunday (go, go, go)
-		// 	Look, she won't go on Sunday (go, go)
-		// 	She won't go on Sunday (go, go)
-		// 	A crooked tree never straightens
-		// 	A girl who shakes, her mother grabs her head
-		// 	A crooked tree never straightens
-		// 	A girl who shakes, her mother grabs her head
-		// 	Hold on to the tchan
-		// 	Love the tchan
-		// 	Hold on to the tchan tchan tchan tchan
-		// 	After nine months you'll see the result
-		// 	This is Gera Samba rocking the place
-		// 	Throw her in the middle, stick her up, stick her down
-		// "
-
-	// $lyrics = $global_lyrics[$locale] ?? $global_lyrics['pt_BR'];
-
-	// $lyrics_array = array_filter(array_map('trim', explode("\n", trim($lyrics))));
+			
 	$lyrics_array = explode("\n", trim($global_lyrics));
 
 	return wptexturize($lyrics_array[mt_rand(0, count( $lyrics_array ) - 1)]);
