@@ -72,6 +72,6 @@ function devops_challenge()
  * @return void
  */
 function devop_css(){
-	wp_enqueue_style ("devops_challenge_css", plugin_dir_url(__FILE__) . "styles.css");
+	wp_enqueue_style ("devops_challenge_css", plugin_dir_url(__FILE__) . "assets/css/styles.css");
 }
 

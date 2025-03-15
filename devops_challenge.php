@@ -19,10 +19,7 @@ if (!defined("ABSPATH")) {
 }
 
 require_once plugin_dir_path( __FILE__ ) . 'includes/functions.php';
+require_once plugin_dir_path( __FILE__ ) . 'includes/i18n.php';
 require_once plugin_dir_path( __FILE__ ) . 'includes/hooks.php';
-// require_once plugin_dir_path( __FILE__ ) . 'includes/i18n.php';
 
 
-function apiki_load_textdomain(){
-    load_plugin_textdomain( 'devops-challenge', false, dirname( plugin_basename( __FILE__ ) ) .'/languages');
-}
