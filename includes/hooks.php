@@ -12,7 +12,7 @@ if (!defined("ABSPATH") ) {
 add_action('init', 'apiki_load_textdomain');
 
 add_action('admin_notices', 'devops_challenge');
-add_action('admin_head', 'devop_css');
+add_action('admin_enqueue_scripts', 'devop_css');
 
 
 

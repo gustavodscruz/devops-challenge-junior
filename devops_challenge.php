@@ -18,8 +18,8 @@ if (!defined("ABSPATH")) {
 	exit;
 }
 
+require_once plugin_dir_path( __FILE__ ) . 'includes/hooks.php';
 require_once plugin_dir_path( __FILE__ ) . 'includes/functions.php';
 require_once plugin_dir_path( __FILE__ ) . 'includes/i18n.php';
-require_once plugin_dir_path( __FILE__ ) . 'includes/hooks.php';
 
 
