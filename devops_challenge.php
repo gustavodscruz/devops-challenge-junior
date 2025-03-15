@@ -19,13 +19,9 @@ if (!defined("ABSPATH")) {
 }
 
 require_once plugin_dir_path( __FILE__ ) . 'includes/functions.php';
+require_once plugin_dir_path( __FILE__ ) . 'includes/hooks.php';
 // require_once plugin_dir_path( __FILE__ ) . 'includes/i18n.php';
-// require_once plugin_dir_path( __FILE__ ) . 'includes/hooks.php';
 
-add_action('admin_notices', 'devops_challenge');
-add_action('admin_head', 'devop_css');
-
-add_action('init', 'apiki_load_textdomain');
 
 function apiki_load_textdomain(){
     load_plugin_textdomain( 'devops-challenge', false, dirname( plugin_basename( __FILE__ ) ) .'/languages');
